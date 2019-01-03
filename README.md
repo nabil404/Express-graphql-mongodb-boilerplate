@@ -9,7 +9,7 @@ An Express graphql Boilerplate template with initial graphql setup
 3. Query for user and JWT authentication
 4. Role based access using graphql directive
 
-## Provided Query, Directive and Mutation
+# Provided Query, Directive and Mutation
 
 ## Query:
     Users: [User]
