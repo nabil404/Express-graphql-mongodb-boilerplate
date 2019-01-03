@@ -1,0 +1,16 @@
+
+type Query {
+  Tests: [Test]
+  Test(name: String!): Test
+}
+type Test implements Node{
+  id: ID
+  name: String
+  createdAt: String
+  updatedAt: String
+}
+type Mutation {
+  addTest(name: String): Test,
+  updateTest(id:String,name: String): Test
+
+}
