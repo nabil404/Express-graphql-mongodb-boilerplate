@@ -19,6 +19,6 @@ input UserInput {
 }
 
 type Mutation {
-  createUser(userInput: UserInput): AuthData, @hasRoleOf(role:"admin")
-  updateUser(id: String!,userInput: UserInput): User 
+  createUser(userInput: UserInput): AuthData @hasRoleOf(role:"admin")
+  updateUser(id: String!,userInput: UserInput): User @hasRoleOf(role:"admin")
 }

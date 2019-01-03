@@ -1,7 +1,7 @@
 Promise = require('bluebird');
-const app = require('./src/config/express');
-const mongoose = require('./src/config/mongoose');
-const { port, env } = require('./src/config/env-vars');
+const app = require('./config/express');
+const mongoose = require('./config/mongoose');
+const { port, env } = require('./config/env-vars');
 
 // open connection
 mongoose.connect();
