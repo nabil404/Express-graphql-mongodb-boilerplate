@@ -4,10 +4,9 @@
 An Express graphql Boilerplate template with initial graphql setup
 
 ## Features & Implemented Module
-1. JWT Authentication with user model and graphql
-2. User and Role Model
-3. Query for user and JWT authentication
-4. Role based access using graphql directive
+1. JWT Authentication with graphql
+2. Query and mutation for user and JWT authentication
+3. Role based access using graphql directive
 
 # Provided Query, Directive and Mutation
 
@@ -30,7 +29,7 @@ An Express graphql Boilerplate template with initial graphql setup
              @hasRoleOf(role:String)
          
 ## Note
-1. If you need to add any schemas or resolvers use the file format "name.graphql" for schema in schema folder and "name.resolvers.js" for resolvers in resolvers folder. Added schemas and resolvers will be added in the Express app.
+1. If you need to add any schemas or resolvers use the file format "name.graphql" for schema in schema folder and "name.resolvers.js" for resolvers in resolvers folder. Added schemas and resolvers will be added automatically in the Express app.
 2. A node interface has been Provided to Implement createdAt and updatedAt
 
 
